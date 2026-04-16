@@ -1,0 +1,18 @@
+# subscribed-laws.yaml — <Sequence Name>
+#
+# Maps law IDs to the stage that evaluates them within this sequence.
+# Laws live in <domain>/laws/ as standalone files. Stage assignment is a
+# property of this subscription, not of the law itself.
+#
+# A law can exist without being subscribed (dormant / in development).
+# A law can appear in different stages in different sequences.
+
+subscriptions:
+
+  # --- Stage: <stage-1-name> ---
+  # - law: <uuid>                  # <Law Name>
+  #   stage: <stage-1-name>
+
+  # --- Stage: <stage-2-name> ---
+  # - law: <uuid>                  # <Law Name>
+  #   stage: <stage-2-name>
