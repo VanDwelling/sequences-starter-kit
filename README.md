@@ -12,6 +12,7 @@ A pattern for building governed evaluation pipelines that run inside Claude Cowo
 | `templates/evaluator-skill.md` | Template SKILL.md for an interpretive evaluation stage |
 | `templates/subscribed-laws.yaml` | Template for mapping laws to stages |
 | `example/` | A worked example: "client deliverable gate" — a simple 2-stage sequence that isn't the publication pipeline |
+| `convergence-demo/` | **Live demo**: a self-contained 5-persona dialectic you can drop into `.claude/skills/` and run immediately. Copy, paste, invoke. |
 
 ## How to use this
 
